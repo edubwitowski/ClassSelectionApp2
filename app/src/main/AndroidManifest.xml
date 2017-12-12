@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.user.classselection">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.user.classselection">
 
     <application
         android:allowBackup="true"
@@ -16,6 +17,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainClassList" />
+        <activity android:name=".ChooseMain" />
+        <activity android:name=".Summary" />
+        <activity android:name=".MainActivity"
+            tools:ignore="DuplicateActivity" />
+        <activity android:name=".ChooseMain"
+            tools:ignore="DuplicateActivity" />
     </application>
 
 </manifest>

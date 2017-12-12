@@ -1,4 +1,4 @@
-package com.example.user.classselection;
+package com.user.classselection;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.user.classselection", appContext.getPackageName());
+        assertEquals("com.user.classselection", appContext.getPackageName());
     }
 }

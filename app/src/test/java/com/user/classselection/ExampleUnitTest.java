@@ -1,4 +1,4 @@
-package com.example.user.classselection;
+package com.user.classselection;
 
 import org.junit.Test;
 
